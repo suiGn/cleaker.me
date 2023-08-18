@@ -1,0 +1,23 @@
+{
+  "name": "cleaker.me",
+  "version": "1.0.0",
+  "description": "flagship application built using the building blocks of neurons.me and this.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/cleaker.me.git"
+  },
+  "keywords": [
+    "cleaker.me",
+    "neurons.me"
+  ],
+  "author": "suiGn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suiGn/cleaker.me/issues"
+  },
+  "homepage": "https://github.com/suiGn/cleaker.me#readme"
+}
