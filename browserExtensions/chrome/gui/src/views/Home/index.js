@@ -8,7 +8,6 @@ function Home() {
                 Discover the amazing features and functionalities that we offer. 
                 From wallet management to connecting with friends, and much more!
             </p>
-            
             <div className="features-section">
                 <h2>Main Features:</h2>
                 <ul>

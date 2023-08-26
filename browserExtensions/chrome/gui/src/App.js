@@ -1,10 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './views/Home';
-import MyProfile from './views/MyProfile';
+import Profile from './views/Profile';
 import Contacts from './views/Contacts';
 import Wallet from './views/Wallet';
-
 function App() {
   return (
     <Router>

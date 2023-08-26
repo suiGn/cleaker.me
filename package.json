@@ -2,8 +2,9 @@
   "name": "cleaker.me",
   "version": "1.0.0",
   "description": "flagship application built using the building blocks of neurons.me and this.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "test"
   },
   "repository": {
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/suiGn/cleaker.me/issues"
   },
-  "homepage": "https://github.com/suiGn/cleaker.me#readme"
+  "homepage": "https://github.com/suiGn/cleaker.me#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
 }
