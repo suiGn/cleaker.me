@@ -1,2 +1,3 @@
 # cleaker.me
-flagship application built using the building blocks of neurons.me and all.this.
+Cleaker is a person, place, animal or thing in space and time.
+Taking all points within a fixed distance.

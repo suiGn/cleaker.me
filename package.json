@@ -35,9 +35,10 @@
     "cleaker.me",
     "neurons.me"
   ],
-  "author": "suiGn",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/suiGn/cleaker.me/issues"
-  }
+  },
+  "author": "suiGn",
+  "license": "MIT",
+  "repoType": "App"
 }
