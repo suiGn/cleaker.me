@@ -27,10 +27,6 @@
     "eslint-config-next": "latest",
     "typescript": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/suiGn/cleaker.me.git"
-  },
   "keywords": [
     "cleaker.me",
     "neurons.me"
@@ -38,6 +34,12 @@
   "bugs": {
     "url": "https://github.com/suiGn/cleaker.me/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/cleaker.me.git"
+  },
+  "homepage": "https://cleaker.me",
+  "docs": "https://suiGn.github.io/cleaker.me",
   "author": "suiGn",
   "license": "MIT",
   "repoType": "App"
