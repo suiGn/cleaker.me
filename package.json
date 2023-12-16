@@ -1,46 +1,26 @@
 {
   "name": "cleaker.me",
-  "version": "2.0.3",
-  "private": true,
+  "version": "2.1.0",
+  "description": "Taking all Points within a fixed distance.",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
-  },
-  "dependencies": {
-    "@emotion/cache": "latest",
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
-    "@mui/icons-material": "latest",
-    "@mui/material": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
-  "devDependencies": {
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
-    "typescript": "latest"
-  },
-  "keywords": [
-    "cleaker.me",
-    "neurons.me"
-  ],
-  "bugs": {
-    "url": "https://github.com/suiGn/cleaker.me/issues"
+    "test": "test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/suiGn/cleaker.me.git"
   },
-  "homepage": "https://cleaker.me",
-  "docs": "https://suiGn.github.io/cleaker.me",
+  
+  "keywords": [
+    "cleaker.me",
+    "neurons.me"
+  ],
+  "docs": "https://suiGn.github.io/cleaker",
   "author": "suiGn",
   "license": "MIT",
-  "repoType": "App"
+  "repoType": "App",
+  "bugs": {
+    "url": "https://github.com/suiGn/cleaker.me/issues"
+  },
+  "homepage": "https://cleaker.me"
 }
