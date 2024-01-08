@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63B4BFB42B4C7FC1003E2B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4BFB32B4C7FC1003E2B31 /* AppDelegate.swift */; };
+		63B4BFB62B4C7FC1003E2B31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4BFB52B4C7FC1003E2B31 /* SceneDelegate.swift */; };
+		63B4BFB92B4C7FC1003E2B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFB72B4C7FC1003E2B31 /* LaunchScreen.storyboard */; };
+		63B4BFBC2B4C7FC1003E2B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFBA2B4C7FC1003E2B31 /* Main.storyboard */; };
+		63B4BFC52B4C7FC1003E2B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4BFC42B4C7FC1003E2B31 /* AppDelegate.swift */; };
+		63B4BFC82B4C7FC1003E2B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFC62B4C7FC1003E2B31 /* Main.storyboard */; };
+		63B4BFCF2B4C7FC1003E2B31 /* cleaker_safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 63B4BFCE2B4C7FC1003E2B31 /* cleaker_safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		63B4BFD92B4C7FC1003E2B31 /* cleaker_safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 63B4BFD82B4C7FC1003E2B31 /* cleaker_safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		63B4BFDF2B4C7FC1003E2B31 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BF9A2B4C7FC0003E2B31 /* Main.html */; };
+		63B4BFE02B4C7FC1003E2B31 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BF9A2B4C7FC0003E2B31 /* Main.html */; };
+		63B4BFE12B4C7FC1003E2B31 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BF9C2B4C7FC0003E2B31 /* Icon.png */; };
+		63B4BFE22B4C7FC1003E2B31 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BF9C2B4C7FC0003E2B31 /* Icon.png */; };
+		63B4BFE32B4C7FC1003E2B31 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BF9D2B4C7FC0003E2B31 /* Style.css */; };
+		63B4BFE42B4C7FC1003E2B31 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BF9D2B4C7FC0003E2B31 /* Style.css */; };
+		63B4BFE52B4C7FC1003E2B31 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BF9E2B4C7FC0003E2B31 /* Script.js */; };
+		63B4BFE62B4C7FC1003E2B31 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BF9E2B4C7FC0003E2B31 /* Script.js */; };
+		63B4BFE72B4C7FC1003E2B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4BF9F2B4C7FC0003E2B31 /* ViewController.swift */; };
+		63B4BFE82B4C7FC1003E2B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4BF9F2B4C7FC0003E2B31 /* ViewController.swift */; };
+		63B4BFE92B4C7FC1003E2B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA02B4C7FC1003E2B31 /* Assets.xcassets */; };
+		63B4BFEA2B4C7FC1003E2B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA02B4C7FC1003E2B31 /* Assets.xcassets */; };
+		63B4BFEB2B4C7FC1003E2B31 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4BFA22B4C7FC1003E2B31 /* SafariWebExtensionHandler.swift */; };
+		63B4BFEC2B4C7FC1003E2B31 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4BFA22B4C7FC1003E2B31 /* SafariWebExtensionHandler.swift */; };
+		63B4BFED2B4C7FC1003E2B31 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA42B4C7FC1003E2B31 /* _locales */; };
+		63B4BFEE2B4C7FC1003E2B31 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA42B4C7FC1003E2B31 /* _locales */; };
+		63B4BFEF2B4C7FC1003E2B31 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA52B4C7FC1003E2B31 /* images */; };
+		63B4BFF02B4C7FC1003E2B31 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA52B4C7FC1003E2B31 /* images */; };
+		63B4BFF12B4C7FC1003E2B31 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA62B4C7FC1003E2B31 /* manifest.json */; };
+		63B4BFF22B4C7FC1003E2B31 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA62B4C7FC1003E2B31 /* manifest.json */; };
+		63B4BFF32B4C7FC1003E2B31 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA72B4C7FC1003E2B31 /* background.js */; };
+		63B4BFF42B4C7FC1003E2B31 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA72B4C7FC1003E2B31 /* background.js */; };
+		63B4BFF52B4C7FC1003E2B31 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA82B4C7FC1003E2B31 /* content.js */; };
+		63B4BFF62B4C7FC1003E2B31 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA82B4C7FC1003E2B31 /* content.js */; };
+		63B4BFF72B4C7FC1003E2B31 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA92B4C7FC1003E2B31 /* popup.html */; };
+		63B4BFF82B4C7FC1003E2B31 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFA92B4C7FC1003E2B31 /* popup.html */; };
+		63B4BFF92B4C7FC1003E2B31 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFAA2B4C7FC1003E2B31 /* popup.css */; };
+		63B4BFFA2B4C7FC1003E2B31 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFAA2B4C7FC1003E2B31 /* popup.css */; };
+		63B4BFFB2B4C7FC1003E2B31 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFAB2B4C7FC1003E2B31 /* popup.js */; };
+		63B4BFFC2B4C7FC1003E2B31 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 63B4BFAB2B4C7FC1003E2B31 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63B4BFD02B4C7FC1003E2B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B4BF942B4C7FC0003E2B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B4BFCD2B4C7FC1003E2B31;
+			remoteInfo = "cleaker_safari Extension (iOS)";
+		};
+		63B4BFDA2B4C7FC1003E2B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B4BF942B4C7FC0003E2B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B4BFD72B4C7FC1003E2B31;
+			remoteInfo = "cleaker_safari Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63B4C0022B4C7FC1003E2B31 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				63B4BFCF2B4C7FC1003E2B31 /* cleaker_safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4C0092B4C7FC1003E2B31 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				63B4BFD92B4C7FC1003E2B31 /* cleaker_safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		63B4BF9B2B4C7FC0003E2B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		63B4BF9C2B4C7FC0003E2B31 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		63B4BF9D2B4C7FC0003E2B31 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		63B4BF9E2B4C7FC0003E2B31 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		63B4BF9F2B4C7FC0003E2B31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63B4BFA02B4C7FC1003E2B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63B4BFA22B4C7FC1003E2B31 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		63B4BFA42B4C7FC1003E2B31 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		63B4BFA52B4C7FC1003E2B31 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		63B4BFA62B4C7FC1003E2B31 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		63B4BFA72B4C7FC1003E2B31 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		63B4BFA82B4C7FC1003E2B31 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		63B4BFA92B4C7FC1003E2B31 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		63B4BFAA2B4C7FC1003E2B31 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		63B4BFAB2B4C7FC1003E2B31 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		63B4BFB02B4C7FC1003E2B31 /* cleaker_safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cleaker_safari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B4BFB32B4C7FC1003E2B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63B4BFB52B4C7FC1003E2B31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63B4BFB82B4C7FC1003E2B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63B4BFBB2B4C7FC1003E2B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63B4BFBD2B4C7FC1003E2B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B4BFC22B4C7FC1003E2B31 /* cleaker_safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cleaker_safari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B4BFC42B4C7FC1003E2B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63B4BFC72B4C7FC1003E2B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63B4BFC92B4C7FC1003E2B31 /* cleaker_safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cleaker_safari.entitlements; sourceTree = "<group>"; };
+		63B4BFCE2B4C7FC1003E2B31 /* cleaker_safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "cleaker_safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B4BFD32B4C7FC1003E2B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B4BFD82B4C7FC1003E2B31 /* cleaker_safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "cleaker_safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B4BFDD2B4C7FC1003E2B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B4BFDE2B4C7FC1003E2B31 /* cleaker_safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cleaker_safari.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B4BFAD2B4C7FC1003E2B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4BFBF2B4C7FC1003E2B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4BFCB2B4C7FC1003E2B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4BFD52B4C7FC1003E2B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63B4BF932B4C7FC0003E2B31 = {
+			isa = PBXGroup;
+			children = (
+				63B4BF982B4C7FC0003E2B31 /* Shared (App) */,
+				63B4BFA12B4C7FC1003E2B31 /* Shared (Extension) */,
+				63B4BFB22B4C7FC1003E2B31 /* iOS (App) */,
+				63B4BFC32B4C7FC1003E2B31 /* macOS (App) */,
+				63B4BFD22B4C7FC1003E2B31 /* iOS (Extension) */,
+				63B4BFDC2B4C7FC1003E2B31 /* macOS (Extension) */,
+				63B4BFB12B4C7FC1003E2B31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63B4BF982B4C7FC0003E2B31 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				63B4BF9F2B4C7FC0003E2B31 /* ViewController.swift */,
+				63B4BFA02B4C7FC1003E2B31 /* Assets.xcassets */,
+				63B4BF992B4C7FC0003E2B31 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		63B4BF992B4C7FC0003E2B31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63B4BF9A2B4C7FC0003E2B31 /* Main.html */,
+				63B4BF9C2B4C7FC0003E2B31 /* Icon.png */,
+				63B4BF9D2B4C7FC0003E2B31 /* Style.css */,
+				63B4BF9E2B4C7FC0003E2B31 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63B4BFA12B4C7FC1003E2B31 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				63B4BFA22B4C7FC1003E2B31 /* SafariWebExtensionHandler.swift */,
+				63B4BFA32B4C7FC1003E2B31 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		63B4BFA32B4C7FC1003E2B31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63B4BFA42B4C7FC1003E2B31 /* _locales */,
+				63B4BFA52B4C7FC1003E2B31 /* images */,
+				63B4BFA62B4C7FC1003E2B31 /* manifest.json */,
+				63B4BFA72B4C7FC1003E2B31 /* background.js */,
+				63B4BFA82B4C7FC1003E2B31 /* content.js */,
+				63B4BFA92B4C7FC1003E2B31 /* popup.html */,
+				63B4BFAA2B4C7FC1003E2B31 /* popup.css */,
+				63B4BFAB2B4C7FC1003E2B31 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63B4BFB12B4C7FC1003E2B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B4BFB02B4C7FC1003E2B31 /* cleaker_safari.app */,
+				63B4BFC22B4C7FC1003E2B31 /* cleaker_safari.app */,
+				63B4BFCE2B4C7FC1003E2B31 /* cleaker_safari Extension.appex */,
+				63B4BFD82B4C7FC1003E2B31 /* cleaker_safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B4BFB22B4C7FC1003E2B31 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				63B4BFB32B4C7FC1003E2B31 /* AppDelegate.swift */,
+				63B4BFB52B4C7FC1003E2B31 /* SceneDelegate.swift */,
+				63B4BFB72B4C7FC1003E2B31 /* LaunchScreen.storyboard */,
+				63B4BFBA2B4C7FC1003E2B31 /* Main.storyboard */,
+				63B4BFBD2B4C7FC1003E2B31 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		63B4BFC32B4C7FC1003E2B31 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				63B4BFC42B4C7FC1003E2B31 /* AppDelegate.swift */,
+				63B4BFC62B4C7FC1003E2B31 /* Main.storyboard */,
+				63B4BFC92B4C7FC1003E2B31 /* cleaker_safari.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		63B4BFD22B4C7FC1003E2B31 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				63B4BFD32B4C7FC1003E2B31 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		63B4BFDC2B4C7FC1003E2B31 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				63B4BFDD2B4C7FC1003E2B31 /* Info.plist */,
+				63B4BFDE2B4C7FC1003E2B31 /* cleaker_safari.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63B4BFAF2B4C7FC1003E2B31 /* cleaker_safari (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B4C0032B4C7FC1003E2B31 /* Build configuration list for PBXNativeTarget "cleaker_safari (iOS)" */;
+			buildPhases = (
+				63B4BFAC2B4C7FC1003E2B31 /* Sources */,
+				63B4BFAD2B4C7FC1003E2B31 /* Frameworks */,
+				63B4BFAE2B4C7FC1003E2B31 /* Resources */,
+				63B4C0022B4C7FC1003E2B31 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B4BFD12B4C7FC1003E2B31 /* PBXTargetDependency */,
+			);
+			name = "cleaker_safari (iOS)";
+			productName = "cleaker_safari (iOS)";
+			productReference = 63B4BFB02B4C7FC1003E2B31 /* cleaker_safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63B4BFC12B4C7FC1003E2B31 /* cleaker_safari (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B4C00A2B4C7FC1003E2B31 /* Build configuration list for PBXNativeTarget "cleaker_safari (macOS)" */;
+			buildPhases = (
+				63B4BFBE2B4C7FC1003E2B31 /* Sources */,
+				63B4BFBF2B4C7FC1003E2B31 /* Frameworks */,
+				63B4BFC02B4C7FC1003E2B31 /* Resources */,
+				63B4C0092B4C7FC1003E2B31 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B4BFDB2B4C7FC1003E2B31 /* PBXTargetDependency */,
+			);
+			name = "cleaker_safari (macOS)";
+			productName = "cleaker_safari (macOS)";
+			productReference = 63B4BFC22B4C7FC1003E2B31 /* cleaker_safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63B4BFCD2B4C7FC1003E2B31 /* cleaker_safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B4BFFF2B4C7FC1003E2B31 /* Build configuration list for PBXNativeTarget "cleaker_safari Extension (iOS)" */;
+			buildPhases = (
+				63B4BFCA2B4C7FC1003E2B31 /* Sources */,
+				63B4BFCB2B4C7FC1003E2B31 /* Frameworks */,
+				63B4BFCC2B4C7FC1003E2B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cleaker_safari Extension (iOS)";
+			productName = "cleaker_safari Extension (iOS)";
+			productReference = 63B4BFCE2B4C7FC1003E2B31 /* cleaker_safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		63B4BFD72B4C7FC1003E2B31 /* cleaker_safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B4C0062B4C7FC1003E2B31 /* Build configuration list for PBXNativeTarget "cleaker_safari Extension (macOS)" */;
+			buildPhases = (
+				63B4BFD42B4C7FC1003E2B31 /* Sources */,
+				63B4BFD52B4C7FC1003E2B31 /* Frameworks */,
+				63B4BFD62B4C7FC1003E2B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cleaker_safari Extension (macOS)";
+			productName = "cleaker_safari Extension (macOS)";
+			productReference = 63B4BFD82B4C7FC1003E2B31 /* cleaker_safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B4BF942B4C7FC0003E2B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					63B4BFAF2B4C7FC1003E2B31 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					63B4BFC12B4C7FC1003E2B31 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					63B4BFCD2B4C7FC1003E2B31 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					63B4BFD72B4C7FC1003E2B31 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 63B4BF972B4C7FC0003E2B31 /* Build configuration list for PBXProject "cleaker_safari" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63B4BF932B4C7FC0003E2B31;
+			productRefGroup = 63B4BFB12B4C7FC1003E2B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B4BFAF2B4C7FC1003E2B31 /* cleaker_safari (iOS) */,
+				63B4BFC12B4C7FC1003E2B31 /* cleaker_safari (macOS) */,
+				63B4BFCD2B4C7FC1003E2B31 /* cleaker_safari Extension (iOS) */,
+				63B4BFD72B4C7FC1003E2B31 /* cleaker_safari Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B4BFAE2B4C7FC1003E2B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B4BFE12B4C7FC1003E2B31 /* Icon.png in Resources */,
+				63B4BFB92B4C7FC1003E2B31 /* LaunchScreen.storyboard in Resources */,
+				63B4BFDF2B4C7FC1003E2B31 /* Main.html in Resources */,
+				63B4BFE52B4C7FC1003E2B31 /* Script.js in Resources */,
+				63B4BFE92B4C7FC1003E2B31 /* Assets.xcassets in Resources */,
+				63B4BFBC2B4C7FC1003E2B31 /* Main.storyboard in Resources */,
+				63B4BFE32B4C7FC1003E2B31 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4BFC02B4C7FC1003E2B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B4BFE22B4C7FC1003E2B31 /* Icon.png in Resources */,
+				63B4BFE42B4C7FC1003E2B31 /* Style.css in Resources */,
+				63B4BFC82B4C7FC1003E2B31 /* Main.storyboard in Resources */,
+				63B4BFE62B4C7FC1003E2B31 /* Script.js in Resources */,
+				63B4BFEA2B4C7FC1003E2B31 /* Assets.xcassets in Resources */,
+				63B4BFE02B4C7FC1003E2B31 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4BFCC2B4C7FC1003E2B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B4BFF32B4C7FC1003E2B31 /* background.js in Resources */,
+				63B4BFF92B4C7FC1003E2B31 /* popup.css in Resources */,
+				63B4BFF72B4C7FC1003E2B31 /* popup.html in Resources */,
+				63B4BFEF2B4C7FC1003E2B31 /* images in Resources */,
+				63B4BFF12B4C7FC1003E2B31 /* manifest.json in Resources */,
+				63B4BFED2B4C7FC1003E2B31 /* _locales in Resources */,
+				63B4BFF52B4C7FC1003E2B31 /* content.js in Resources */,
+				63B4BFFB2B4C7FC1003E2B31 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4BFD62B4C7FC1003E2B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B4BFF42B4C7FC1003E2B31 /* background.js in Resources */,
+				63B4BFFA2B4C7FC1003E2B31 /* popup.css in Resources */,
+				63B4BFF82B4C7FC1003E2B31 /* popup.html in Resources */,
+				63B4BFF02B4C7FC1003E2B31 /* images in Resources */,
+				63B4BFF22B4C7FC1003E2B31 /* manifest.json in Resources */,
+				63B4BFEE2B4C7FC1003E2B31 /* _locales in Resources */,
+				63B4BFF62B4C7FC1003E2B31 /* content.js in Resources */,
+				63B4BFFC2B4C7FC1003E2B31 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B4BFAC2B4C7FC1003E2B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B4BFE72B4C7FC1003E2B31 /* ViewController.swift in Sources */,
+				63B4BFB42B4C7FC1003E2B31 /* AppDelegate.swift in Sources */,
+				63B4BFB62B4C7FC1003E2B31 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4BFBE2B4C7FC1003E2B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B4BFE82B4C7FC1003E2B31 /* ViewController.swift in Sources */,
+				63B4BFC52B4C7FC1003E2B31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4BFCA2B4C7FC1003E2B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B4BFEB2B4C7FC1003E2B31 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4BFD42B4C7FC1003E2B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B4BFEC2B4C7FC1003E2B31 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63B4BFD12B4C7FC1003E2B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B4BFCD2B4C7FC1003E2B31 /* cleaker_safari Extension (iOS) */;
+			targetProxy = 63B4BFD02B4C7FC1003E2B31 /* PBXContainerItemProxy */;
+		};
+		63B4BFDB2B4C7FC1003E2B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B4BFD72B4C7FC1003E2B31 /* cleaker_safari Extension (macOS) */;
+			targetProxy = 63B4BFDA2B4C7FC1003E2B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63B4BF9A2B4C7FC0003E2B31 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B4BF9B2B4C7FC0003E2B31 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		63B4BFB72B4C7FC1003E2B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B4BFB82B4C7FC1003E2B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		63B4BFBA2B4C7FC1003E2B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B4BFBB2B4C7FC1003E2B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63B4BFC62B4C7FC1003E2B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B4BFC72B4C7FC1003E2B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63B4BFFD2B4C7FC1003E2B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63B4BFFE2B4C7FC1003E2B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		63B4C0002B4C7FC1003E2B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T27LTRNY64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "cleaker_safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neurons.me.cleaker-safari.Extension";
+				PRODUCT_NAME = "cleaker_safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63B4C0012B4C7FC1003E2B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T27LTRNY64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "cleaker_safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neurons.me.cleaker-safari.Extension";
+				PRODUCT_NAME = "cleaker_safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63B4C0042B4C7FC1003E2B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T27LTRNY64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = cleaker_safari;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neurons.me.cleaker-safari";
+				PRODUCT_NAME = cleaker_safari;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63B4C0052B4C7FC1003E2B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T27LTRNY64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = cleaker_safari;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neurons.me.cleaker-safari";
+				PRODUCT_NAME = cleaker_safari;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63B4C0072B4C7FC1003E2B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/cleaker_safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T27LTRNY64;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "cleaker_safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neurons.me.cleaker-safari.Extension";
+				PRODUCT_NAME = "cleaker_safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63B4C0082B4C7FC1003E2B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/cleaker_safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T27LTRNY64;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "cleaker_safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neurons.me.cleaker-safari.Extension";
+				PRODUCT_NAME = "cleaker_safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		63B4C00B2B4C7FC1003E2B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/cleaker_safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T27LTRNY64;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = cleaker_safari;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neurons.me.cleaker-safari";
+				PRODUCT_NAME = cleaker_safari;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63B4C00C2B4C7FC1003E2B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/cleaker_safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T27LTRNY64;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = cleaker_safari;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neurons.me.cleaker-safari";
+				PRODUCT_NAME = cleaker_safari;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B4BF972B4C7FC0003E2B31 /* Build configuration list for PBXProject "cleaker_safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B4BFFD2B4C7FC1003E2B31 /* Debug */,
+				63B4BFFE2B4C7FC1003E2B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B4BFFF2B4C7FC1003E2B31 /* Build configuration list for PBXNativeTarget "cleaker_safari Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B4C0002B4C7FC1003E2B31 /* Debug */,
+				63B4C0012B4C7FC1003E2B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B4C0032B4C7FC1003E2B31 /* Build configuration list for PBXNativeTarget "cleaker_safari (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B4C0042B4C7FC1003E2B31 /* Debug */,
+				63B4C0052B4C7FC1003E2B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B4C0062B4C7FC1003E2B31 /* Build configuration list for PBXNativeTarget "cleaker_safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B4C0072B4C7FC1003E2B31 /* Debug */,
+				63B4C0082B4C7FC1003E2B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B4C00A2B4C7FC1003E2B31 /* Build configuration list for PBXNativeTarget "cleaker_safari (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B4C00B2B4C7FC1003E2B31 /* Debug */,
+				63B4C00C2B4C7FC1003E2B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B4BF942B4C7FC0003E2B31 /* Project object */;
+}
